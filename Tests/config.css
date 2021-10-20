@@ -1,0 +1,57 @@
+*{
+    margin: 0 auto;
+}
+/*top-bar*/
+.top-bar{
+    display: flex;
+    background-color: rgb(71, 71, 71);
+    height: 3vw;
+    align-items: center;
+    
+    
+}
+.top-bar ul{
+    margin: ;
+}
+.top-bar ul li {
+   margin: 25px;
+    display: inline-block;
+    margin-top: 0;
+    
+}
+.top-bar ul li a {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: 25px;
+    margin: 30px;
+}
+.top-bar ul li{
+    position: relative;
+    background-color: tomato;
+    
+}
+
+
+
+
+
+
+.space {
+    height: 10vw;
+}
+
+
+
+
+
+
+.video-container{
+    background-color: blueviolet;
+    display: flex;
+    height: 30vw;
+}
+.video-container video{
+    margin: ;
+}
