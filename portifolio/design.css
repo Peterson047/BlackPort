@@ -1,0 +1,84 @@
+*{
+    margin: 0 auto;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.box {
+    border: none;
+    position: absolute;
+    background-color: cadetblue;
+    height: 100%;   
+    
+}
+
+.header{
+    display: flex;
+    position: relative;
+    height: 3%;
+    background-color: black;
+    width: 100%;
+
+}
+.header p {
+    color: #fff;
+}
+
+.header ul li {
+    display: inline-block;
+}
+
+
+
+.name {
+    height: 5vw;
+    background-color: crimson;
+    text-align: center;
+}
+
+.resume {
+    background-color: darkgrey;
+    height:15%;
+    display: flex;
+    align-items: center;
+    
+    
+}
+.info {
+    display: flex;
+    background-color: darkmagenta;
+    height: 50%;
+    align-items: center;
+    justify-content: space-between;
+    
+
+    
+    
+}
+.info-text{
+    background-color: black;
+    width: 55%;
+    height: 90%;
+}
+div .photo{
+    margin-right: 3%;
+}
+
+.photo{
+background-color: black;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+.icons {
+    display: flex;
+    align-content: center;
+}
+.footer{
+    background-color: green;
+    position: absolute;
+    bottom: 0;
+    height: ;
+    width: 100%;
+}

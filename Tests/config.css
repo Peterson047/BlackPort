@@ -1,6 +1,10 @@
 *{
     margin: 0 auto;
     background-color: ;
+   
+}
+body{
+    box-shadow: 0px 0px 0 black;
 }
 /*top-bar*/
 .top-bar{
@@ -42,8 +46,10 @@
     height: 10vw;
     display: flex;
     align-items: center;
+    background-color: cadetblue;
 }
 .space p{
+    
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 35px;
 }
