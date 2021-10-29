@@ -13,8 +13,7 @@ span{
     border: none;
     position: absolute;
     background-color: cadetblue;
-    height: 100%;   
-    box-shadow: 12px 0 15px -4px #303030cc, -12px 0 8px -4px #303030cc;
+    height: 100%; box-shadow: 12px 0 15px -4px #070707cc, -12px 0 8px -4px #070707cc;
     width: 70%;
     }
 
@@ -24,6 +23,7 @@ span{
     height: 3%;
     background-color: black;
     width: 100%;
+    
     
 }
 .header p {
@@ -99,7 +99,8 @@ span{
 }
 .info {
     display: flex;
-    background-color: darkmagenta;
+    background: rgb(11,20,108);
+background: linear-gradient(90deg, rgba(11,20,108,1) 0%, rgba(0,212,255,1) 0%, rgba(2,0,36,1) 0%, rgba(5,36,91,1) 61%, rgba(4,21,68,1) 91%, rgba(8,75,150,1) 100%);
     height: 50%;
     align-items: center;
     justify-content: space-between;
@@ -109,8 +110,20 @@ span{
     width: 55%;
     height: 90%;
 }
+.info-text img{
+   width: 100%;
+   height: 100%; box-shadow: 12px 0 15px -4px #303030cc, -12px 0 8px -4px #303030cc;
+}
+
+
+
+
+
+
+
 div .photo{
     margin-right: 3%;
+    
 }
 .photo{
 background-color: black;
@@ -118,15 +131,24 @@ background-color: black;
     width: 300px;
     border-radius: 50%;
 }
+.photo img{
+    height: 100%;
+    border-radius: 50%;
+   
+}
 .icons {
     display: flex;
     align-content: center;
 }
 .footer{
-    background-color: green;
-    position: absolute;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
     bottom: 0;
     width: 100%;
+    
+}
+.footer p{
+    color: #fff;
 }
 .resume{
     background-color: rgb(247, 247, 247);
@@ -141,8 +163,17 @@ font-family: 'Libre Baskerville', serif;
     font-weight: 700;
 }
 
-
-
+.icons {margin-top: 0;
+display: flex;
+background-color: rgb(43, 43, 43);
+height: 200px;
+}
+.icons img{
+    margin-top: 5%;
+    position: relative;
+    height: 80%;
+    filter: invert(1);
+}
 
 
 
