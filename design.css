@@ -185,8 +185,44 @@ figcaption {
     font-size: 25px;
 }
 .paragraph{
-    margin-top: 35px;
+    background-color: #0E0573;
+    border: none;
+    padding: 25px;
+    padding-top: 7px;
+    background-image: url(image/description.png);
+    
 }
+.paragraph p{
+ 
+    color: #000;
+    font-family: 'Merriweather', serif;
+
+}
+.aboutme{
+font-size: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -200,4 +236,5 @@ figcaption {
 .header ul li a:hover{
     color: #000;
 }
+
 /* HOVER STYLE FIM */
