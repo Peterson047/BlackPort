@@ -1,4 +1,5 @@
 /* GERAL */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 *{
     margin: 0 auto;
     
@@ -21,47 +22,51 @@ p{
     height: 100%; box-shadow: 12px 0 15px -4px #070707cc, -12px 0 8px -4px #070707cc;
     width: 70%;
     }
-
-.header{
-    display: flex;
-    position: relative;
-    height: 3%;
-    background-color: black;
-    width: 100%;
-    
-    
+    li, a, button{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        color: #edf0f1;
+        text-decoration: none;
+    }
+    header{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 10px 10%;
+        background-color: rgb(3, 7, 29);
+    }
+.logo{
+    cursor: pointer;
 }
-.header p {
-    color: #fff;
-    align-self: flex-end;
-    margin-left:5px ;
-    margin-right: 5px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    font-weight: 900;
+.nav_links{
+    list-style: none;
 }
-.header ul{
-    align-self: flex-end;
-    
-    
-}
-.header ul li {
+.nav_links li{
     display: inline-block;
-    background-color: #565656;
-    padding-left: 10px;
-    padding-right: 10px;
-    border-top-right-radius: 50%;
-    border-top-left-radius: 50%;
-
+    padding: 0px 20px;
+  
 }
-.header ul li a{
-    position: relative;
-    text-decoration: none;
-    color: #fff;
-    padding: 7px;
-    font-weight: bold;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
+.nav_links li a{
+    transition:  all 0.3s ease 0s;
+}
+.nav_links li a:hover{
+    color: #0088a9;
+    background-color: rgba(0, 136, 169, 1);
+    padding:2px;
+    color: #000000;
+    border-radius: 50px;
+}
+button{
+    padding: 9px 25px;
+    background-color: rgb(0, 130, 169);
+    border: none;
+    border-radius: 50px ;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgba(0, 136, 169, 0.8);
+    transition: 300ms;
 }
 .name{
     background-color: #000022;
@@ -200,6 +205,9 @@ figcaption {
 }
 .aboutme{
 font-size: 40px;
+font-family: 'Libre Baskerville', serif;
+font-weight: 900;
+margin-bottom: 7px;
 }
 
 
