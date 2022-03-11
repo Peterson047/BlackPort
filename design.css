@@ -406,3 +406,5 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
     height: 20%; } }
 
 /*# sourceMappingURL=design.css.map */
+ [class*="col-"] { width: 100%;} @media only screen and (min-width: 768px) {
+ .col-1 {width: 8.33%;}.col-2 {width: 16.66%;} aplica 100% de coluna para smartphones e quando o dispositivo for um desktop com tamanho mínimo de tela de 768 px faça a largura da coluna proporcional a 8.33% e 16.66%.
